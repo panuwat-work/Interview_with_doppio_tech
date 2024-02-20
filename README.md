@@ -21,7 +21,15 @@ pip install Appium-Python-Client selenium requests
 ---
 
 ## 2. Demo Locust 
-This project utilizes Locust, a load testing tool, to simulate user behavior on the PetStore Swagger API. It defines a Locust user class MyUser1, which sends HTTP requests to various endpoints of the API. The endpoints include findPetsByStatus, placeOrder, getInventory, and createUsersWithArrayInput. The between method sets a wait time between 1 and 2 seconds for each user task. This demonstration showcases load testing capabilities for API endpoints using Locust.
+This Demo contains an example of load testing using Locust, a popular open-source load testing tool, against the Reqres API. Reqres provides a simple mock API for testing and prototyping, making it ideal for demonstrating load testing scenarios.
+
+Features:
+   Comprehensive API Request Coverage: Demonstrates load testing scenarios for all major types of HTTP requests:
+   1. **GET** : Simulate retrieving data from the API using GET requests.
+   2. **POST** : Perform data creation operations via POST requests, ensuring proper handling of request payloads.
+   3. **PUT** : Update existing data in the API using PUT requests, validating proper modification of resources.
+   4. **PATCH** : Partially update resources with PATCH requests, ensuring accurate modification of specific fields.
+   5. **DELETE** : Validate deletion operations with DELETE requests, ensuring proper removal of resources.
 
 ### Installation
 
@@ -35,11 +43,11 @@ pip install locust
 ## 3. Demo Selenium(python) 
 This Python script demonstrates various commonly used functionalities for automate tester using Selenium WebDriver:
 
-  1. Checkboxes: It selects checkboxes on a web page based on user input.
-  2. Dropdowns: It interacts with dropdown menus on a web page based on user input.
-  3. Login Page: It simulates logging in to a web page using provided credentials.
-  4. Windows: It interacts with browser windows, opening a new window and then switching back to the original one.
-  5. Notification Text: It retrieves notification text displayed on a web page.
+  1. **Checkboxes**: It selects checkboxes on a web page based on user input.
+  2. **Dropdowns**: It interacts with dropdown menus on a web page based on user input.
+  3. **Login Page**: It simulates logging in to a web page using provided credentials.
+  4. **Windows**: It interacts with browser windows, opening a new window and then switching back to the original one.
+  5. **Notification Text**: It retrieves notification text displayed on a web page.
 Each function in the script represents one of these functionalities. By calling the respective function, you can demonstrate each feature individually. The script utilizes Selenium WebDriver to interact with web elements and perform actions such as clicking, inputting text, and retrieving information.
 
 To use this script for demonstration, uncomment the desired function calls at the end of the script and execute it. Each function will showcase a different aspect of web automation using Selenium.
