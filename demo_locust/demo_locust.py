@@ -11,11 +11,11 @@ class MyUser1(HttpUser):
         self.get_api1_endpoint()
 
     def get_api1_endpoint(self):
-        self.client.get('/findPetsByStatus', name='pet (post)')
+        self.client.get('/findPetsByStatus', name='pet (get)')
         self.client.get('/findPetsByStatus', name='findPetsByStatus (get)')
-        self.client.get('/store/placeOrder', name='placeOrder (post)')
+        self.client.get('/store/placeOrder', name='placeOrder (get)')
         self.client.get('/store/getInventory', name='getInventory (get)')
-        self.client.get('/user/createUsersWithArrayInput', name='createUsersWithArray (post)')
+        self.client.get('/user/createUsersWithArrayInput', name='createUsersWithArray (get)')
 
 
 #locust -f locust_demo.py
