@@ -1,6 +1,6 @@
 from locust import HttpUser, task, between
 
-# Thank for free API from Swagger
+# Thank for free API from reqres.in
 
 class MyUser1(HttpUser):
     wait_time = between(1, 2)
