@@ -37,6 +37,10 @@ Use [pip](https://pypi.org/project/locust/) to install locust
 ```Zsh
 pip install locust
 ```
+Run command
+```Zsh
+locust -f demo_locust.py
+```
 
 ---
 
